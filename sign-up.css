@@ -1,0 +1,19 @@
+#sign-up-container
+{
+   display: flex;
+}
+
+.text-sign-up
+{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.para1
+{
+    font-size: 30px;
+    font-family: 'arial';
+    text-align:left;
+    margin-top: 15%;
+    margin-right: 10%;
+    margin-left: 5%;
+}

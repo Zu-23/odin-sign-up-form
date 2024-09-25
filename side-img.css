@@ -1,0 +1,55 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.container
+{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+#side-img
+{
+    width: 45vw;
+    height: 100vh;
+    background-color: black;
+    flex-shrink: 0;
+}
+
+#side-img .img
+{
+    height: 100%;
+    width: 100%;
+    /* object-fit: contain; */
+}
+
+.dark-banner
+{
+    width: 45vw;
+    top: 10rem;
+    background-color: black;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content:center;
+    gap:5%;
+}
+
+.dark-banner .img-logo
+{
+    height: 5em;
+    width: 5em;
+    margin-top: 20px;
+}
+
+.odin
+{
+    font-size: 50px;
+    color: white;
+    margin-top: 25px;
+    /* position: absolute; */
+
+}
